@@ -24,9 +24,25 @@ div {
   font-size: 40px;
 }
 
+/* @media (max-width: 768px) { 
+    h3 {
+      margin-top: 50cm;
+      font-size: 40px;
+      padding: 25px;
+      border-bottom: 1px solid;
+      border-radius: 5%;
+    }
+
+    span {
+      display: block;
+      font-size: 20px;
+      color: rgb(158, 1, 1);
+    }
+  } **/
+
 span {
   display: block;
-  font-size: 20px;
+  font-size: 27px;
   color: white;
 }
 
@@ -38,7 +54,8 @@ body {
 }
 
 h3 {
-  padding: 20px;
-  border-bottom: 1px solid;
-  border-radius: 3px
+  padding: 30px;
+  border-bottom: 2px solid;
+  border-radius: 3%;
+  font-size: 70px;
 }
