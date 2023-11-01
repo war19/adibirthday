@@ -1,20 +1,41 @@
 @import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+  text-align: center;
+  font-family: 'Covered By Your Grace', cursive;
+  color: white;
+  background: #050505;
+  margin: 0;
+  padding: 0;
+}
+
+.back-video {
+  position: absolute; 
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 3750px;
+  height: auto;
+  opacity: 0.1;
+}
 
 #days {
   font-size: 200px;
-  color: #db4844;
+  color: #ce4b47;
 }
 #hours {
   font-size: 150px;
-  color: #f07c22;
+  color: #e27b2d;
 }
 #minutes {
   font-size: 100px;
-  color: #f6da74;
+  color: #d6b333;
 }
 #seconds {
   font-size: 50px;
-  color: #abcd58;
+  color: #9ac236;
 }
 
 div {
@@ -24,38 +45,24 @@ div {
   font-size: 40px;
 }
 
-/* @media (max-width: 768px) { 
-    h3 {
-      margin-top: 50cm;
-      font-size: 40px;
-      padding: 25px;
-      border-bottom: 1px solid;
-      border-radius: 5%;
-    }
-
-    span {
-      display: block;
-      font-size: 20px;
-      color: rgb(158, 1, 1);
-    }
-  } **/
 
 span {
   display: block;
   font-size: 27px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
-body {
-  text-align: center;
-  font-family: 'Covered By Your Grace', cursive;
-  color: white;
-  background: #222;
-}
 
 h3 {
   padding: 30px;
-  border-bottom: 2px solid;
+  border-bottom: 3px solid;
   border-radius: 3%;
   font-size: 70px;
+  margin-left: 0px;
+  margin-top: 3cm;
+  font-family: 'Satisfy', cursive;
 }
+
+
+
+
